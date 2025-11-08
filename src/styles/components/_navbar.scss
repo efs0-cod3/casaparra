@@ -1,0 +1,133 @@
+.navbar_container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px 24px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  display: none;
+  transition: 0.5s;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-links li a:hover {
+  color: #fff14b;
+}
+
+/* 📱 Responsive: menú plegable en móvil */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+    transition: 0.3s;
+  }
+
+  .navbar_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; // keeps it above all content
+    background-color: black; // or whatever your theme color is
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // optional shadow
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    flex-direction: column;
+    width: 220px;
+    padding: 15px;
+    display: none;
+    border-radius: 4px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .btn_container {
+    margin: 10px 0 5px;
+  }
+}
+
+.btn_container {
+  margin-right: 20px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px;
+  display: flex;
+}
+
+.phone_button {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s all ease;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(182, 182, 182, 0.6);
+    background-color: rgb(1, 208, 1);
+    transform: translateY(-5px);
+  }
+}
+
+.nav-links a.active {
+  color: #fff14b;
+}

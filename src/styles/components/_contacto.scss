@@ -1,0 +1,129 @@
+.contact_section {
+height: 63vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.contact_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(26, 143, 0, 0.515);
+  overflow: hidden;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+  transition: transform 0.3s ease;
+}
+
+.contact_card:hover {
+  transform: translateY(-5px);
+}
+
+.contacto_img {
+  width: 45%;
+  height: 100%;
+  background-color: #000;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contacto_info {
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.contacto_info h2 {
+  color: #007c32; /* verde principal */
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contacto_info p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.contacto_info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.contacto_info li {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.contact_btn {
+  display: flex;
+  justify-content: center;
+  background: #007c32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s;
+  text-decoration: none;
+}
+
+.contact_btn:hover {
+  background: #00a651;
+  transform: scale(1.05);
+}
+
+.contacto_card_icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.contacto_info li a {
+  color: #555;
+    text-decoration: none;
+}
+
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007c32;
+}
+
+.contacto_info .delivery_p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  color: #007c32;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.delivery_icon {
+  font-size: 40px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .contacto_card {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+
+  .contacto_img {
+    display: none;
+  }
+}

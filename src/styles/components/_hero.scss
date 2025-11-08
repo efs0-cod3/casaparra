@@ -1,0 +1,50 @@
+.hero_section {
+  padding: 100px 110px;
+  background: url("../../assets/cann.png") center/cover no-repeat;
+  background-size: cover;
+  background-color: rgba($color: #2f2f2f, $alpha: 0.8);
+  height: 450px;
+  transition: 0.3s;
+}
+
+.welcome {
+  font-size: 80px;
+  color: green;
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+.quienes_somos {
+  font-size: 20px;
+  width: 600px;
+  padding: 20px 0;
+  color: white;
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+.mvv {
+  padding: 0 20px 20px;
+  text-align: center;
+}
+
+.mvv_item {
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+
+  .welcome {
+    font-size: 3rem;
+    color: green;
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
+  }
+
+  .quienes_somos {
+    text-wrap: wrap;
+    width: 300px;
+  }
+}

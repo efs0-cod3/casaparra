@@ -1,0 +1,57 @@
+{
+  "empresa": {
+    "nombre": "Casa Parra, E.I.R.L.",
+    "tipo": "E.I.R.L.",
+    "descripcion": "Somos una empresa dedicada a la comercialización de provisiones alimenticias, siendo líderes en la distribución de estos productos al por mayor y al detalle.", 
+    "mision": "Proveer un ambiente confortable y seguro donde los clientes y los asociados converja en una fuerte relación de familiaridad y beneficios mutuos.", 
+    "vision": "Convertirnos en una empresa global donde se humanice el servicio y el trato a los clientes donde lo importante sea el ser humano.", 
+    "valores": [
+      "Gratitud",
+      "Lealtad",
+      "Paciencia",
+      "Responsabilidad",
+      "Superación",
+      "Respeto",
+      "Solidaridad",
+      "Servicio",
+      "Disciplina",
+      "Puntualidad",
+      "Trabajo en Equipo"
+    ], 
+    "productos_principales": [
+      "Desechables",
+      "Provisiones",
+      "Materiales de Limpieza",
+      "Fundas",
+      "Enlatados",
+      "Pampers para adultos",
+      "Productos Plásticos",
+      "Artículos de Limpieza",
+      "Cigarrillos",
+      "Venta al por mayor y al detalle"
+    ], 
+    "contacto": {
+      "telefono": "809-616-9947", 
+      "whatsapp": "829-597-0135", 
+      "email": "casaparra81@gmail.com",
+      "direccion": "C/ Santana No. 81, Ensanche Espaillat, Santo Domingo, R.D.",
+      "sitio_web": "https://casaparra.com.do/",
+      "servicio_domicilio": true
+    },
+    "horario": {
+      "dias": "Lunes a Viernes",
+      "horas": "8:00 am - 5:00 pm"
+    },
+    "redes_sociales": {
+      "instagram": "casaparraeirl_",
+      "facebook": null
+    },
+    "observaciones": "Distribución al por mayor y al detalle; enfoque en artículos de limpieza, desechables y provisiones."
+  },
+  "metadata_web": {
+    "url_inicio": "https://casaparra.do/",
+    "url_productos": "https://casaparra.do/servicios/",
+    "url_contacto": "https://casaparra.do/contacto/",
+    "estructura_secciones": ["Inicio", "Productos", "Contacto"]
+  }
+}
