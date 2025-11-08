@@ -11,7 +11,7 @@ export default function Contacto() {
     <section className="contact_section">
       <div className="contact_card animate__animated animate__fadeIn">
         <img
-          src="src/assets/Logo.png"
+          src="/Logo.png"
           alt="Contacto Casa Parra"
           className="contacto_img"
         />

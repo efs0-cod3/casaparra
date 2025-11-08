@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className="navbar_container">
       <img
         className="logo"
-        src="src/assets/Logo.png"
+        src="/Logo.png"
         alt="Logo Casa Parra"
         onClick={() => toTheStart()}
       />
